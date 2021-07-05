@@ -1,0 +1,11 @@
+.hvr-bk:hover{
+    background-color: rgb(226, 156, 64);
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(226, 156, 64)e;
+    font-weight: bold;
+}

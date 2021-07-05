@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- HOVER -->
+    <link rel="stylesheet" href="./css/hover.css">
+    <!-- ANIMAÇÕES -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <title>exercFormulario</title>
+</head>
+<body>
+    <!-- BOX -->
+    <!-- criando uma classe para o form "form" -->
+    <!-- criando uma classe para o form "slide" para a animação-->
+    <form id="form" class="slide-form">
+        <h1><img class= "logo" src="./CASA-DICO.jpg" alt=""> Login</h1>
+        <!-- campo NOME -->
+    <div>
+        <label for="nome">Nome</label>
+        <!-- criado uma classe "hvr-bk" (hover para o background - bk)-->
+        <input class="hvr-bk" type="text" id="nome" name="nome"
+        placeholder="Digite seu nome">
+    </div>
+    <!-- campo EMAIL -->
+    <div>
+        <label for="email">Email</label>
+        <!-- criado uma classe "hvr" (hover para o background - bk)-->
+        <input class="hvr-bk" type="email" id="email" name="email"
+        placeholder="email@email.com.br">
+    </div>
+    <!-- campo SENHA -->
+    <div>
+        <label for="senha">Senha</label>
+        <!-- criado uma classe "hvr" (hover para o background - bk)-->
+        <input class="hvr-bk" type="password" id="senha" 
+        placeholder="********">
+    </div>
+    <!-- BOTÕES -->
+    <div>
+        <!-- craindo classe para button ("btn")-->
+        <button class="btn"> Enviar </button>
+        <button class="btn"> Limpar </button>
+    </div>
+    </form>
+</body>
+</html>
