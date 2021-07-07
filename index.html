@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./css/CASA-DICO.jpg" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- HOVER -->
@@ -16,8 +17,9 @@
     <!-- BOX -->
     <!-- criando uma classe para o form "form" -->
     <!-- criando uma classe para o form "slide" para a animação-->
+<div class="container">
     <form id="form" class="slide-form">
-        <h1><img class= "logo" src="./CASA-DICO.jpg" alt=""> Login</h1>
+        <h1><img class= "logo" src="./css/CASA-DICO.jpg" alt="">Cadastro</h1>
         <!-- campo NOME -->
     <div>
         <label for="nome">Nome</label>
@@ -34,17 +36,19 @@
     </div>
     <!-- campo SENHA -->
     <div>
-        <label for="senha">Senha</label>
+        <label for="telefone">Tel.:</label>
         <!-- criado uma classe "hvr" (hover para o background - bk)-->
-        <input class="hvr-bk" type="password" id="senha" 
-        placeholder="********">
+        <input class="hvr-bk" type="text" id="telefone" name="telefone" 
+        placeholder="(XX)XXXXX.XXXX">
     </div>
+
     <!-- BOTÕES -->
     <div>
         <!-- craindo classe para button ("btn")-->
         <button class="btn"> Enviar </button>
         <button class="btn"> Limpar </button>
     </div>
+</div>
     </form>
 </body>
 </html>
